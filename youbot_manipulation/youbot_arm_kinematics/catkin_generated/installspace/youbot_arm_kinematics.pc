@@ -1,0 +1,8 @@
+prefix=/home/lucas/catkin_ws/install
+
+Name: youbot_arm_kinematics
+Description: Description of youbot_arm_kinematics
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/opt/ros/kinetic/share/orocos_kdl/../../include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lyoubot_arm_kinematics /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2
+Requires: 
